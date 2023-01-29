@@ -30,7 +30,8 @@ select top 1 * from amazon_orders;
 --data sorting
 select * from amazon_orders
 order by order_date desc,product_name desc,payment_method;
-
+--data orders 
+select * from amazon_orders order by order_id
 
 
 
